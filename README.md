@@ -1,10 +1,6 @@
-![Logo](admin/onvif-alt.png)
-# ioBroker.onvif-alt
+![Logo](admin/onvif-icon.png)
+# ioBroker.onvif-nc
 
-[![NPM version](http://img.shields.io/npm/v/iobroker.onvif-alt.svg)](https://www.npmjs.com/package/iobroker.onvif-alt)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.onvif-alt.svg)](https://www.npmjs.com/package/iobroker.onvif-alt)
-[![Dependency Status](https://img.shields.io/david/jey-cee/iobroker.onvif-alt.svg)](https://david-dm.org/jey-cee/iobroker.onvif-alt)
-[![Known Vulnerabilities](https://snyk.io/test/github/jey-cee/ioBroker.onvif-alt/badge.svg)](https://snyk.io/test/github/jey-cee/ioBroker.onvif-alt)
 
 [![NPM](https://nodei.co/npm/iobroker.onvif-alt.png?downloads=true)](https://nodei.co/npm/iobroker.onvif-alt/)
 
