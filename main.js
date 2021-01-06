@@ -10,7 +10,7 @@ const utils = require('@iobroker/adapter-core');
 const OnvifManager = require('onvif-nvt');
 
 
-class Onvif_alt extends utils.Adapter {
+class Onvif_NC extends utils.Adapter {
 
     /**
      * @param {Partial<ioBroker.AdapterOptions>} [options={}]
@@ -1786,8 +1786,8 @@ if (module.parent) {
     /**
      * @param {Partial<ioBroker.AdapterOptions>} [options={}]
      */
-    module.exports = (options) => new Onvif_alt(options);
+    module.exports = (options) => new Onvif_NC(options);
 } else {
     // otherwise start the instance directly
-    new Onvif_alt();
+    new Onvif_NC();
 }

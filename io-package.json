@@ -41,7 +41,7 @@
         "license": "MIT",
         "platform": "Javascript/Node.js",
         "main": "main.js",
-        "icon": "onvif.png",
+        "icon": "admin/onvif-icon.png",
         "enabled": false,
         "extIcon": "",
         "readme": "",
