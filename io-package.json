@@ -1,0 +1,78 @@
+{
+    "common": {
+        "name": "onvif-nc",
+        "version": "0.2.0",
+        "news": {
+            "0.2.0": {
+                "en": "rename adapter",
+                "de": "Adapter umbenennen",
+                "ru": "переименовать адаптер",
+                "pt": "renomear adaptador",
+                "nl": "hernoem adapter",
+                "fr": "renommer l'adaptateur",
+                "it": "rinominare adattatore",
+                "es": "cambiar el nombre del adaptador",
+                "pl": "zmień nazwę adaptera",
+                "zh-cn": "重命名适配器"
+            },
+            "0.1.0": {
+                "en": "initial version created with Adapter-Studio by Jey Cee",
+                "de": "Erste Version erstellt von Jey Cee, Angepasst von Timo Neumeier"
+            }
+        },
+        "title": "ONVIF-NC",
+        "titleLang": {
+            "en": "ONVIF-NC",
+            "de": "ONVIF-NC"
+        },
+        "desc": {
+            "en": "Discover and control onvif ready cameras.\n",
+            "de": "Entdecken und steuern Sie onvif-fähige Kameras.\n"
+        },
+        "authors": [
+            "Timo Neumeier <timo@neumeier.cloud>"
+        ],
+        "keywords": [
+            "onvif",
+            "camera",
+            "iobroker",
+            "security,"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "onvif.png",
+        "enabled": false,
+        "extIcon": "",
+        "readme": "",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "hardware",
+        "compact": true,
+        "materialize": true,
+        "supportCustoms": false,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ],
+        "messagebox": true
+    },
+    "native": {
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "discover",
+            "type": "state",
+            "common": {
+                "role": "button",
+                "name": "Discover new cameras",
+                "type": "boolean",
+                "read": false,
+                "write": true
+            },
+            "native": {}
+        }
+    ]
+}
